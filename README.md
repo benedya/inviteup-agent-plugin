@@ -1,7 +1,8 @@
 # InviteUp agent plugin
 
-An [Agent Plugin](https://agent-plugins.org/) (spec v1.0.0) that teaches AI agents to work with InviteUp and connects them to the InviteUp MCP server.
+[InviteUp](https://inviteup.me/) is a service for running Telegram channels: scheduling posts, polls and quizzes, drafting content with AI and setting up recurring posts. This plugin lets Claude and other AI agents do that for you from a conversation.
 
+It's an [Agent Plugin](https://agent-plugins.org/) (spec v1.0.0) that teaches AI agents to work with InviteUp and connects them to the InviteUp MCP server.
 ## Install in Claude
 
 This repository is also a Claude plugin marketplace, so you add the marketplace first and then install the `inviteup` plugin from it.
