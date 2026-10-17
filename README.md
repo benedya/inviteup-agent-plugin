@@ -27,9 +27,13 @@ The first time the InviteUp MCP server is used, Claude asks you to sign in. In C
 
 **Update**
 
+Auto-update is off by default for this marketplace. To get the latest version:
+
 ```bash
-claude plugin marketplace update inviteup
+claude plugin update inviteup@inviteup
 ```
+
+Or turn on auto-update in `/plugin` → **Marketplaces** → `inviteup` → **Enable auto-update**.
 
 ## Layout
 
