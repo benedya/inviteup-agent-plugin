@@ -1,0 +1,24 @@
+{
+  "name": "inviteup",
+  "description": "InviteUp plugins for Claude",
+  "owner": {
+    "name": "InviteUp",
+    "url": "https://inviteup.me"
+  },
+  "plugins": [
+    {
+      "name": "inviteup",
+      "source": "./",
+      "description": "Work with InviteUp: manage Telegram channels, schedule posts, polls and quizzes, generate AI drafts and set up recurring posts.",
+      "version": "0.1.0",
+      "author": {
+        "name": "InviteUp",
+        "url": "https://inviteup.me"
+      },
+      "homepage": "https://inviteup.me",
+      "license": "MIT",
+      "keywords": ["inviteup", "telegram", "channels", "posts", "scheduling", "mcp"],
+      "mcpServers": "./mcp.json"
+    }
+  ]
+}
