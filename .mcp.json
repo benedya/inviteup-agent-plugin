@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "inviteup": {
+      "type": "http",
+      "url": "https://api2.inviteup.me/mcp"
+    }
+  }
+}

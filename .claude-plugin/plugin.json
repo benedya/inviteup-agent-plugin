@@ -1,0 +1,13 @@
+{
+  "name": "inviteup",
+  "displayName": "InviteUp",
+  "version": "0.1.0",
+  "description": "Work with InviteUp: manage Telegram channels, schedule posts, polls and quizzes, generate AI drafts and set up recurring posts.",
+  "author": {
+    "name": "InviteUp",
+    "url": "https://inviteup.me"
+  },
+  "homepage": "https://inviteup.me",
+  "license": "MIT",
+  "keywords": ["inviteup", "telegram", "channels", "posts", "scheduling", "mcp"]
+}

@@ -40,7 +40,9 @@ Or turn on auto-update in `/plugin` → **Marketplaces** → `inviteup` → **En
 ```text
 inviteup-agent-plugin/
 ├── .claude-plugin/
-│   └── marketplace.json              # Claude marketplace + plugin entry
+│   ├── marketplace.json              # Claude marketplace listing
+│   └── plugin.json                   # Claude manifest
+├── .mcp.json                         # Claude MCP server config
 ├── plugin.json                       # manifest
 ├── LICENSE                           # MIT
 ├── mcp.json                          # InviteUp MCP server (streamable HTTP)
@@ -63,4 +65,4 @@ inviteup-agent-plugin/
 
 When an InviteUp MCP tool is added, renamed or removed, update the skills and `references/tools.md`.
 
-On every release, bump `version` in both `plugin.json` and `.claude-plugin/marketplace.json`. Claude users stay on the installed version until it changes.
+Claude reads `.claude-plugin/plugin.json` and `.mcp.json`; other agents read `plugin.json` and `mcp.json`. Keep each pair in sync, and bump `version` in both manifests on every release. Claude users stay on the installed version until it changes.
