@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "inviteup": {
+      "type": "streamable-http",
+      "url": "https://api2.inviteup.me/mcp"
+    }
+  }
+}
